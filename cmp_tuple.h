@@ -18,7 +18,7 @@ namespace cmp {
 
 	template<int n, class T, class U>
 	struct tuple_impl<n,T,U,-1> {
-	   bool operator() (const T& t1, const U& t2)
+	   bool operator() (const T& , const U& )
 	   {
 		  return true;
 	   }
